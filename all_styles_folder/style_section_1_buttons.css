@@ -1,0 +1,82 @@
+html,body
+{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+    background: radial-gradient(circle, #ffd737, #57fcff);
+    
+}
+.div_all_buttons
+{
+    /* background-color: rgb(6, 99, 68); */
+    z-index: 951;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 50px; */
+
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 900px;
+}
+.div_overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+      
+}
+.hidden
+{
+    display: none;
+}
+.button_show_modal
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 20px ;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    /* border: 1px solid black ; */
+    background-color: white;
+    cursor: pointer;
+    /* margin-top: 50px; */
+}
+.button_show_modal:hover
+{
+    box-shadow: inset 0px 0px 10px rgba(154, 154, 154, 0.5);
+}
+.button_show_modal:active
+{
+    box-shadow: inset 0px 0px 15px rgba(109, 109, 109, 0.5);
+}
+@media(max-width : 560px)
+{
+    .div_all_buttons
+    {
+        width: 500px;
+    }
+
+}
+
+@media(max-width : 800px)
+{
+    .button_show_modal
+    {
+        border-radius: 50px;
+    }
+
+}

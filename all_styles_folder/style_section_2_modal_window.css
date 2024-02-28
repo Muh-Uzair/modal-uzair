@@ -1,0 +1,87 @@
+p
+{
+    margin: 0;
+    
+}
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;    
+}
+.modal_message
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 70%;
+    /* height: 40%; */
+    min-height: 40%;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 2000;
+
+    /* padding-top: 200px;
+    padding-bottom: 200px; */
+    overflow: hidden;
+
+    position: relative;
+    
+}
+.hidden
+{
+    display: none;
+}
+.button_cross
+{
+    position: absolute ;
+    top: 10px;
+    right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background-color: rgb(193, 3, 3);
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    padding-top: 3px;
+    cursor: pointer;
+
+}
+.button_cross:active
+{
+    color: rgb(114, 114, 114);
+}
+.div_all_text
+{
+    /* background-color: beige; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    width: 80%;
+    /* height: 60%; */
+    min-height: 40%;
+
+
+}
+.heading_I_am_modal
+{
+    color: rgb(101, 101, 101);
+    margin-bottom: 20px;
+}
+.text_paragraph
+{
+    color: rgb(101, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+
+}
